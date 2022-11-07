@@ -12,7 +12,7 @@ from parameterized import parameterized_class
 from data_diff import databases as db
 from data_diff import tracking
 from data_diff import connect
-from data_diff.queries.api import table
+from data_diff.sqeleton.queries.api import table
 from data_diff.query_utils import drop_table
 
 tracking.disable_tracking()
