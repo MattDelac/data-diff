@@ -13,4 +13,3 @@ from .clickhouse import Clickhouse
 from .vertica import Vertica
 
 from ._connect import connect
-
